@@ -7,9 +7,7 @@ molecool
 
 Python prg
 
-This repository is currently under development, download this repository
- and type
-pip install -e
+
 
 ### Copyright
 
@@ -20,3 +18,7 @@ Copyright (c) 2020, Krutika Patidar
  
 Project based on the 
 [Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.
+
+This repository is currently under development, download this repository
+ and type
+pip install -e
