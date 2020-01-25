@@ -7,6 +7,10 @@ molecool
 
 Python prg
 
+This repository is currently under development, download this repository
+ and type
+pip install -e
+
 ### Copyright
 
 Copyright (c) 2020, Krutika Patidar
