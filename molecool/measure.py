@@ -25,8 +25,11 @@ def calculate_distance(rA, rB):
     >>> r2 = np.array([0,0,0])
     >>> calculate_distance(r1,r2)
     1.0
-    
+
     """
+     
+    if not isinstance(rA, np.ndarray) or not isinstance(rB, np.ndarray):
+        raise TypeError(" Input must be np.ndarray ")
 
     vector_distance = (rA - rB)
     distance = np.linalg.norm(vector_distance)
